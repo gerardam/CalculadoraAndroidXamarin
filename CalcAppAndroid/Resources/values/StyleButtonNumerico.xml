@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="TemaButtonNumerico" parent="android:Theme.Material.Light">
+    <item name="android:layout_width" >wrap_content</item>
+    <item name="android:layout_height" >match_parent</item>
+    <item name="android:layout_weight" >1</item>
+    <item name="android:backgroundTint">@color/c_azul</item>
+    <item name="android:textColor" >@color/c_blanco</item>
+    <item name="android:textSize" >30dp</item>
+    <item name="android:textStyle" >bold</item>
+  </style>
+  <style name="TemaButtonNumericoLand" parent="android:Theme.Material.Light">
+    <item name="android:layout_width" >match_parent</item>
+    <item name="android:layout_height" >match_parent</item>
+    <item name="android:layout_weight" >1</item>
+    <item name="android:backgroundTint">@color/c_azul</item>
+    <item name="android:textColor" >@color/c_blanco</item>
+    <item name="android:textSize" >30dp</item>
+    <item name="android:textStyle" >bold</item>
+  </style>
+  
+  <style name="TemaButtonOperacion" parent="android:Theme.Material.Light">
+    <item name="android:layout_width" >wrap_content</item>
+    <item name="android:layout_height" >match_parent</item>
+    <item name="android:layout_weight" >1</item>
+    <item name="android:backgroundTint">@color/c_gris</item>
+    <item name="android:textColor" >@color/c_blanco</item>
+    <item name="android:textSize" >30dp</item>
+    <item name="android:textStyle" >bold</item>
+  </style>
+  <style name="TemaButtonOperacionLand" parent="android:Theme.Material.Light">
+    <item name="android:layout_width" >match_parent</item>
+    <item name="android:layout_height" >match_parent</item>
+    <item name="android:layout_weight" >1</item>
+    <item name="android:backgroundTint">@color/c_gris</item>
+    <item name="android:textColor" >@color/c_blanco</item>
+    <item name="android:textSize" >30dp</item>
+    <item name="android:textStyle" >bold</item>
+  </style>
+
+  <style name="TemaButtonIgual" parent="android:Theme.Material.Light">
+    <item name="android:layout_width" >wrap_content</item>
+    <item name="android:layout_height" >match_parent</item>
+    <item name="android:layout_weight" >1</item>
+    <item name="android:backgroundTint">@color/c_rosa</item>
+    <item name="android:textColor" >@color/c_blanco</item>
+    <item name="android:textSize" >30dp</item>
+    <item name="android:textStyle" >bold</item>
+  </style>
+  <style name="TemaButtonIgualLand" parent="android:Theme.Material.Light">
+    <item name="android:layout_width" >match_parent</item>
+    <item name="android:layout_height" >match_parent</item>
+    <item name="android:layout_weight" >1</item>
+    <item name="android:backgroundTint">@color/c_rosa</item>
+    <item name="android:textColor" >@color/c_blanco</item>
+    <item name="android:textSize" >30dp</item>
+    <item name="android:textStyle" >bold</item>
+  </style>
+
+  <style name="TemaButtonClean" parent="android:Theme.Material.Light">
+    <item name="android:layout_width" >wrap_content</item>
+    <item name="android:layout_height" >match_parent</item>
+    <item name="android:layout_weight" >1</item>
+    <item name="android:backgroundTint">@color/c_rojo</item>
+    <item name="android:textColor" >@color/c_blanco</item>
+    <item name="android:textSize" >30dp</item>
+    <item name="android:textStyle" >bold</item>
+  </style>
+  <style name="TemaButtonCleanlLand" parent="android:Theme.Material.Light">
+    <item name="android:layout_width" >match_parent</item>
+    <item name="android:layout_height" >match_parent</item>
+    <item name="android:layout_weight" >1</item>
+    <item name="android:backgroundTint">@color/c_rojo</item>
+    <item name="android:textColor" >@color/c_blanco</item>
+    <item name="android:textSize" >30dp</item>
+    <item name="android:textStyle" >bold</item>
+  </style>
+  
+</resources>

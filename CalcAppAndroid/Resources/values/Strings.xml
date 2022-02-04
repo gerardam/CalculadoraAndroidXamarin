@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ApplicationName">Calculadora</string>
+  <string name="NombreApp">Calculadora V. 1.0</string>
+  <string name="TituloCreditos">Créditos</string>
+  <string name="textDerechos">
+    2018 Kyocode. Todos los derechos reservados.
+  </string>
+  <string name="textDeveloper">
+    Desarrollador: Ing. Gerardo Alvarez Mendoza
+  </string>
+  <string name="textNombre">
+    Ing. Gerardo Alvarez Mendoza
+  </string>
+  <string name="textComplemento">
+    El desarrollo de la app es para fines educativos.
+    Actualización continua de la funcionalidad para mejorar la experiencia del usuario.
+  </string>
+</resources>

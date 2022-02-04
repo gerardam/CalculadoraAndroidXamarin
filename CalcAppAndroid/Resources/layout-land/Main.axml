@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1">
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:attr/actionBarSize"
+        android:background="?android:attr/colorPrimary" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="2">
+        <EditText
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txtValores"
+            android:background="@android:color/white"
+            android:textSize="50sp"
+            android:textColor="@android:color/background_dark"
+            android:gravity="right"
+            android:enabled="false" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+            <Button
+                android:text="7"
+                android:id="@+id/btn7"
+                style="@style/TemaButtonNumericoLand" />
+            <Button
+                android:text="4"
+                android:id="@+id/btn4"
+                android:layout_below="@id/btn7"
+                style="@style/TemaButtonNumericoLand" />
+            <Button
+                android:text="1"
+                android:id="@+id/btn1"
+                android:layout_below="@id/btn4"
+                style="@style/TemaButtonNumericoLand" />
+            <Button
+                android:text="CE"
+                android:id="@+id/btnCle"
+                android:layout_below="@id/btn1"
+                style="@style/TemaButtonCleanlLand" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+            <Button
+                android:text="8"
+                android:id="@+id/btn8"
+                style="@style/TemaButtonNumericoLand" />
+            <Button
+                android:text="5"
+                android:id="@+id/btn5"
+                android:layout_below="@id/btn8"
+                style="@style/TemaButtonNumericoLand" />
+            <Button
+                android:text="2"
+                android:id="@+id/btn2"
+                android:layout_below="@id/btn5"
+                style="@style/TemaButtonNumericoLand" />
+            <Button
+                android:text="0"
+                android:id="@+id/btn0"
+                android:layout_below="@id/btn2"
+                style="@style/TemaButtonNumericoLand" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+            <Button
+                android:text="9"
+                android:id="@+id/btn9"
+                style="@style/TemaButtonNumericoLand" />
+            <Button
+                android:text="6"
+                android:id="@+id/btn6"
+                android:layout_below="@id/btn9"
+                style="@style/TemaButtonNumericoLand" />
+            <Button
+                android:text="3"
+                android:id="@+id/btn3"
+                android:layout_below="@id/btn6"
+                style="@style/TemaButtonNumericoLand" />
+            <Button
+                android:text="."
+                android:id="@+id/btnPun"
+                android:layout_below="@id/btn3"
+                style="@style/TemaButtonNumericoLand" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+            <Button
+                android:text="÷"
+                android:id="@+id/btnDiv"
+                style="@style/TemaButtonOperacionLand" />
+            <Button
+                android:text="x"
+                android:id="@+id/btnMul"
+                android:layout_below="@id/btnDiv"
+                style="@style/TemaButtonOperacionLand" />
+            <Button
+                android:text="-"
+                android:id="@+id/btnMen"
+                android:layout_below="@id/btnMul"
+                style="@style/TemaButtonOperacionLand" />
+            <Button
+                android:text="+"
+                android:id="@+id/btnMas"
+                android:layout_below="@id/btnMen"
+                style="@style/TemaButtonOperacionLand" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+            <Button
+                android:text="="
+                android:id="@+id/btnIgual"
+                style="@style/TemaButtonIgualLand" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

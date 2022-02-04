@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:id="@+id/Creditos" >
+	<Toolbar
+		android:id="@+id/toolbarC"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minHeight="?android:attr/actionBarSize"
+		android:background="#0091EA"
+		android:popupTheme="@android:style/ThemeOverlay.Material.Light" />
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/txvNombreApp"
+		android:layout_below="@+id/toolbarC"
+		android:text="@string/NombreApp"
+		android:textColor="#212121"
+		android:textSize="16dp"
+		android:gravity="center_horizontal"
+		android:layout_marginTop="20sp"
+		android:layout_marginBottom="20sp"
+		android:textStyle="bold" />
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/txvDerechos"
+		android:layout_below="@+id/txvNombreApp"
+		android:text="@string/textDerechos"
+		android:layout_marginTop="5sp"
+		android:paddingLeft="5dp"
+		android:textColor="#212121" />
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/txvDeveloper"
+		android:layout_below="@+id/txvDerechos"
+		android:text="@string/textDeveloper"
+		android:layout_marginTop="5sp"
+		android:paddingLeft="5dp"
+		android:textColor="#263238" />
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/txvComplemento"
+		android:layout_below="@+id/txvDeveloper"
+		android:text="@string/textComplemento"
+		android:layout_marginTop="5sp"
+		android:paddingLeft="5dp"
+		android:paddingRight="5dp"
+		android:textColor="#263238"
+		android:gravity="left" />
+</LinearLayout>

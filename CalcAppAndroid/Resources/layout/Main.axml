@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1">
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:attr/actionBarSize"
+        android:background="?android:attr/colorPrimary" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+        <EditText
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txtValores"
+            android:background="@android:color/white"
+            android:textSize="50sp"
+            android:textColor="@android:color/background_dark"
+            android:gravity="right"
+            android:enabled="false" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+        <Button
+            android:text="7"
+            android:id="@+id/btn7"
+            style="@style/TemaButtonNumerico" />
+        <Button
+            android:text="8"
+            android:layout_toRightOf="@id/btn7"
+            android:id="@+id/btn8"
+            style="@style/TemaButtonNumerico" />
+        <Button
+            android:text="9"
+            android:layout_toRightOf="@id/btn8"
+            android:id="@+id/btn9"
+            style="@style/TemaButtonNumerico" />
+        <Button
+            android:text="÷"
+            android:layout_toRightOf="@id/btn9"
+            android:id="@+id/btnDiv"
+            style="@style/TemaButtonOperacion" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+        <Button
+            android:text="4"
+            android:id="@+id/btn4"
+            android:layout_below="@id/btn7"
+            style="@style/TemaButtonNumerico" />
+        <Button
+            android:text="5"
+            android:layout_toRightOf="@id/btn4"
+            android:id="@+id/btn5"
+            android:layout_below="@id/btn8"
+            style="@style/TemaButtonNumerico" />
+        <Button
+            android:text="6"
+            android:layout_toRightOf="@id/btn5"
+            android:id="@+id/btn6"
+            android:layout_below="@id/btn9"
+            style="@style/TemaButtonNumerico" />
+        <Button
+            android:text="x"
+            android:layout_toRightOf="@id/btn6"
+            android:id="@+id/btnMul"
+            android:layout_below="@id/btnDiv"
+            style="@style/TemaButtonOperacion" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+        <Button
+            android:text="1"
+            android:id="@+id/btn1"
+            android:layout_below="@id/btn4"
+            style="@style/TemaButtonNumerico" />
+        <Button
+            android:text="2"
+            android:layout_toRightOf="@id/btn1"
+            android:id="@+id/btn2"
+            android:layout_below="@id/btn5"
+            style="@style/TemaButtonNumerico" />
+        <Button
+            android:text="3"
+            android:layout_toRightOf="@id/btn2"
+            android:id="@+id/btn3"
+            android:layout_below="@id/btn6"
+            style="@style/TemaButtonNumerico" />
+        <Button
+            android:text="-"
+            android:layout_toRightOf="@id/btn3"
+            android:id="@+id/btnMen"
+            android:layout_below="@id/btnMul"
+            style="@style/TemaButtonOperacion" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+        <Button
+            android:text="CE"
+            android:id="@+id/btnCle"
+            android:layout_below="@id/btn1"
+            style="@style/TemaButtonClean" />
+        <Button
+            android:text="0"
+            android:layout_toRightOf="@id/btnCle"
+            android:id="@+id/btn0"
+            android:layout_below="@id/btn2"
+            style="@style/TemaButtonNumerico" />
+        <Button
+            android:text="."
+            android:layout_toRightOf="@id/btn0"
+            android:id="@+id/btnPun"
+            android:layout_below="@id/btn3"
+            style="@style/TemaButtonNumerico" />
+        <Button
+            android:text="+"
+            android:layout_toRightOf="@id/btnPun"
+            android:id="@+id/btnMas"
+            android:layout_below="@id/btnMen"
+            style="@style/TemaButtonOperacion" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+        <Button
+            android:text="="
+            android:id="@+id/btnIgual"
+            style="@style/TemaButtonIgual" />
+    </LinearLayout>
+</LinearLayout>

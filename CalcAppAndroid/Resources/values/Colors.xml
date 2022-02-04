@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <color name="c_blanco">#FFFFFF</color>
+  <color name="c_rojo">#ffd50000</color>
+  <color name="c_azul">#ff01579b</color>
+  <color name="c_gris">#ff212121</color>
+  <color name="c_rosa">#ff880e4f</color>
+</resources>
